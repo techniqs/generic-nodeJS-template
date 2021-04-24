@@ -1,7 +1,9 @@
 import express from 'express';
 import cors from 'cors';
 import log  from './deleteMe/help';
+import { config } from 'dotenv';
 
+config();
 const port = 8080
 const app = express()
 
